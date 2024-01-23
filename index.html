@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bagavad Gita</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <link
+      rel="shortcut icon"
+      href="favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body onload="getQuotes()">
+    <audio src="audio/music1.mp3" id="first-song"></audio>
+    <audio src="audio/music2.mp3" id="second-song"></audio>
+
+    <div id="play-buttons">
+      <i class="fa-solid fa-play" id="left-play"></i>
+      <i
+        class="fa-solid fa-play fa-rotate-180"
+        style="float: right"
+        id="right-play"
+      ></i>
+    </div>
+
+    <div id="main-section">
+      <h1 id="title-section" class="glow">Bhagavad Gita</h1>
+      <div id="quote-section">
+        <img
+          src="img/gita0.jpg"
+          alt="image of sri krishna"
+          width="250px"
+          height="350px"
+          id="quote-img"
+        />
+        <h1 id="quote">
+          Through selfless service, you will always be fruitful and find the
+          fulfillment of your desires.
+        </h1>
+      </div>
+      <a href="#" class="glow" id="download-btn">Download</a>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <div id="gita-books">
+      <a
+        href="https://bhagawadgita.vercel.app/books/english.pdf"
+        target="_blank"
+        id="english-book"
+        class="glow"
+        >Read Gita in English</a
+      >
+      <a
+        href="https://bhagawadgita.vercel.app/books/telugu.pdf"
+        target="_blank"
+        id="telugu-book"
+        class="glow"
+        >Read Gita in Telugu</a
+      >
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

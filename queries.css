@@ -1,0 +1,147 @@
+/**********************************/
+/*BELOW 1344px (Smaller desktops) */
+/**********************************/
+@media (max-width: 1344px) {
+}
+
+/**********************************/
+/*BELOW 1200px (Landscape Tablets) */
+/**********************************/
+@media (max-width: 1200px) {
+  /* #play-buttons {
+    height: 25px;
+  } */
+  #main-section {
+    height: 650px;
+    width: 750px;
+  }
+  #title-section {
+    font-size: 3em;
+    margin-bottom: 30px;
+  }
+
+  #main-section img {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+/**********************************/
+/*BELOW 944px (Tablets) */
+/**********************************/
+@media (max-width: 944px) {
+  /* #play-buttons {
+    height: 20px;
+  } */
+  #main-section {
+    height: 550px;
+    width: 500px;
+  }
+
+  #title-section {
+    font-size: 2.8em;
+    margin-bottom: 25px;
+  }
+  #quote-section {
+    gap: 25px;
+    padding: 15px;
+  }
+  #quote-section h1 {
+    text-align: justify;
+    font-size: 1.6em;
+    font-weight: 700;
+  }
+
+  #main-section a {
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+  #main-section button {
+    margin-top: 8px;
+    height: 40px;
+    width: 85px;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  #gita-books #telugu-book,
+  #gita-books #english-book {
+    font-size: 1.1em;
+    bottom: 5px;
+  }
+}
+
+/**********************************/
+/*BELOW 544px (Phones) */
+/**********************************/
+@media (max-width: 544px) {
+  /* #play-buttons {
+    display: flex;
+    justify-content: space-between;
+  } */
+  #left-play,
+  #right-play {
+    font-size: 10px;
+  }
+
+  html {
+    zoom: 1;
+  }
+
+  #main-section {
+    height: 200px;
+    width: 200px;
+  }
+  #title-section {
+    font-size: 1.7em;
+    margin-bottom: 8px;
+  }
+
+  #quote-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  #quote-section {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #main-section img {
+    width: 160px;
+    height: 200px;
+    margin: auto;
+    padding: 0;
+  }
+
+  #quote-section h1 {
+    text-align: justify;
+    font-size: 1em;
+  }
+
+  #main-section a {
+    font-size: 0.8em;
+    font-weight: 300;
+  }
+
+  #main-section button {
+    margin-top: 10px;
+    height: 35px;
+    width: 75px;
+    font-weight: 700;
+    font-size: 0.7rem;
+  }
+
+  #gita-books #telugu-book,
+  #gita-books #english-book {
+    font-size: 0.8em;
+    bottom: 5px;
+  }
+
+  #surprise {
+  }
+}
